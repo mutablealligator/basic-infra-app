@@ -1,6 +1,6 @@
 import pytest
 from flask import json
-from your_app import app, redis
+from app import app
 from unittest.mock import patch
 
 @pytest.fixture
